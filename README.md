@@ -1,8 +1,16 @@
 # Springboot Project Template
 ## Description:
-> Middleware server for CRUD endpoints of [`FakeStoreAPI`](https://fakestoreapi.com/docs).
+> Multi-modular middleware server for CRUD endpoints of [`FakeStoreAPI`](https://fakestoreapi.com/docs).
 
---- 
+## Modules:
+1. api
+> This is where models and API definition interfaces are defined.
+2. controller
+> This is where controllers, services, dao, repositories & utils are created.
+3. entrypoint
+> This is where main class is.
+
+---
 
 ## Run on localhost:
 - ### Step by step
